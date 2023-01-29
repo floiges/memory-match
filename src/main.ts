@@ -2,7 +2,7 @@ import Phaser from 'phaser'
 
 import Preloader from './scenes/Preloader'
 import Game from './scenes/Game'
-import Loggers from './scenes/Loggers'
+// import Loggers from './scenes/Loggers'
 
 const config: Phaser.Types.Core.GameConfig = {
 	type: Phaser.AUTO,
@@ -20,7 +20,7 @@ const config: Phaser.Types.Core.GameConfig = {
 			gravity: { y: 0 },
 		},
 	},
-	scene: [Preloader, Game, Loggers],
+	scene: [Preloader, Game],
 }
 
 export default new Phaser.Game(config)

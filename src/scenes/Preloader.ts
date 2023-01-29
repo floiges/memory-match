@@ -72,6 +72,6 @@ export default class Preloader extends Phaser.Scene {
       repeat: -1,
     })
 
-    this.scene.start(SceneKeys.Logger)
+    this.scene.start(SceneKeys.Game)
   }
 }
