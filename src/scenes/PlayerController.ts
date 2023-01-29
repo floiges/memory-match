@@ -2,7 +2,7 @@ import IdleState from "../states/IdleState"
 import MoveDownState from "../states/MoveDownState"
 import MoveLeftState from "../states/MoveLeftState"
 import MoveRightState from "../states/MoveRightState"
-import MoveUpState from "../states/MoveupState"
+import MoveUpState from "../states/MoveUpState"
 
 type StatesKey = 'idle'| 'moveLeft' | 'moveRight' | 'moveUp' | 'moveDown'
 

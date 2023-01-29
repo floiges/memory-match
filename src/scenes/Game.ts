@@ -80,7 +80,7 @@ export default class Game extends Phaser.Scene {
     this.countdown.start(this.handleCountdownFinished.bind(this))
   }
 
-  update(time: number, delta: number) {
+  update() {
     this.updatePlayer()
 
     this.updateActiveBox()
